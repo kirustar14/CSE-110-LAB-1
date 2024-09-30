@@ -7,6 +7,6 @@ window.onload = function() {
 function alertSubFunc() {
     let email=  document.getElementById("email");
     let emailValue = email.value;
-    alert(emailValue); 
+    alert("Subscriber added " + emailValue); 
   }
 
