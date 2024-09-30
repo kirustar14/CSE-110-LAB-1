@@ -33,6 +33,25 @@
     padding: 10px; 
 }
 
+#S4 {
+  display: inline-block; 
+  width: 100vw;
+  scroll-margin-top: 40px; 
+  background-color: #182b49;
+  h2 {
+      color: white;
+      
+  };
+  p {
+      color: white;
+      font-size: 28px;
+  };
+}
+
+#S4I{
+  padding: 10px; 
+}
+
 #S3 {
     display: inline-block;
     background-color: rgb(245, 240, 230);
@@ -120,6 +139,7 @@ ul {
     max-width: 100%;
   }
 
+
   @media screen and (max-width: 800px) {
     #navbar {
       display: none;
@@ -143,6 +163,5 @@ ul {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 25px;
     }
-    
 
   }
